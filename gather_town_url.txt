@@ -5,4 +5,4 @@ password:
 
 
 t1
-https://app.gather.town/invite?token=wuG3Yd4c__kOjYGCfDePI4C2M0eMkTDK
+https://app.gather.town/invite?token=2IfgnBVpgOj44sLMBalYb0kLSErF5SNH
