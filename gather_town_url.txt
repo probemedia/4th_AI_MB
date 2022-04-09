@@ -6,3 +6,12 @@ password:
 
 t1
 https://app.gather.town/invite?token=2IfgnBVpgOj44sLMBalYb0kLSErF5SNH
+
+password:  
+
+
+t2
+https://app.gather.town/invite?token=QA1mA8G7A5YZ5iRhmMIch3wggNWrwr2Y
+
+password:  
+
