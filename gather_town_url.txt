@@ -15,3 +15,8 @@ https://app.gather.town/invite?token=p9RDJ4hwmuw8jHQn2GW5V3kYiXPlXRqt
 
 password:  
 
+t3
+https://app.gather.town/invite?token=YclbY8rtKsHj-TG2ECd_XnIWkHrwrek9
+
+password: 
+
