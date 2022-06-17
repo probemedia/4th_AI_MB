@@ -1,11 +1,11 @@
 class1212
-https://app.gather.town/invite?token=8iHTLGfiU8jJ4Qu0Tyuor1hQ3MGYhJSg
+https://app.gather.town/invite?token=R9fWOhVP5BjQUtNcVo5fPENnQsscwpAy
                    
 password:  
 
 
 t1
-
+https://app.gather.town/invite?token=b1XpwRqgc0l5UPURqK6OAiIquTrTOBWU
 
 password:  
 
@@ -18,7 +18,7 @@ password:
 -------
 
 t3
-https://app.gather.town/invite?token=OXF5bVmoznmkjfn42fCjkULPri54f7wx
+
 
 password:  
 
