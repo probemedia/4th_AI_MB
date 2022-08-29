@@ -18,7 +18,7 @@ password:
 -------
 
 t3
-
+https://app.gather.town/invite?token=A4K1kNIvySQx5IWAcQiyHohCq54RTq6A
 
 password:  
 
