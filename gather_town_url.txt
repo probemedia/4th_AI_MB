@@ -1,5 +1,5 @@
 t3
-https://app.gather.town/invite?token=8q_Vb5AuegnUZ4Q_H1KkFHpsdyIMlj1-
+https://app.gather.town/invite?token=iJr2MIshRAqNj2MHrral
 
 password:  
 
