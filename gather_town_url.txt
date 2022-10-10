@@ -6,7 +6,7 @@ password:
 --------
 
 class1212
-https://app.gather.town/invite?token=10h-AmARaii5GtsbHl6r0GfIaAi0pKBy
+https://app.gather.town/invite?token=Cf7mYtqCSqyIWpzAKZn_
                    
 password:  
 
