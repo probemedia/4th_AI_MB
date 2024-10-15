@@ -40,6 +40,7 @@ Sub ConsolidateSheets()
     MsgBox "데이터 통합이 완료되었습니다!"
 End Sub
 
+
 2. 파일통합
 ' 파일통합
 Sub ConsolidateAccidentData()
