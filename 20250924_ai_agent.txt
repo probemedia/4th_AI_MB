@@ -1,0 +1,107 @@
+20250924_ai_agent
+
+추가 자료, https://github.com/probemedia/4th_AI_MB
+20250924_ai_agent. zip
+
+생성형 AI를 사용한 챗봇 및 프로그램 작성
+
+A. ChatGPT에서 챗봇 만들기: [GPT]
+
+------
+PDF문서와 보고서요약
+https://chatgpt.com/g/g-68d34234afc48191846a59b9144d50c4-pdfmunseowa-bogoseoyoyag
+
+지침
+1. pdf파일을 업로드하면 업로드한 파일에서 텍스트 추출하고, 추출된 텍스트를 txt파일로 생성해서 다운로드 링크제공.
+2. 추출된 텍스트의 내용을 요약해서 화면에 출력.
+------
+음성 텍스트변환기
+https://chatgpt.com/g/g-68d270d68f648191aa2512e37c30e38f-eumseong-tegseuteu-byeonhwangi
+
+지침
+1. 음성파일 또는 동영상 파일을 업로드
+2. 업로드한 파일에서 음성을 추출해서 텍스트 변환하고 화면에 출력
+3. 추출된 텍스트를 txt파일로 생성해서 다운로드 링크제공
+
+음성 추출기
+1. ChatGPT생성: 음성파일 또는 동영상파일을 업로드하면 텍스트를 추출하는 프로그램을 작성해줘
+
+# ================================
+# Colab Whisper 음성 → 텍스트 변환
+# ================================
+
+# 1. 필수 라이브러리 설치
+!pip install -q openai-whisper ffmpeg
+
+# 2. 구글 드라이브 연동 (선택: 변환된 파일 저장용)
+from google.colab import drive
+drive.mount('/content/drive')
+
+# 3. Whisper 불러오기
+import whisper
+
+# 4. 모델 로드 (base 권장, 더 빠름 / 정확도 높이려면 'small' 또는 'medium')
+model = whisper.load_model("base")
+
+# 5. 오디오 파일 업로드
+from google.colab import files
+uploaded = files.upload()
+
+# 업로드한 파일 이름 가져오기
+import os
+audio_file = list(uploaded.keys())[0]
+
+# 6. 음성 파일을 텍스트로 변환
+result = model.transcribe(audio_file, language="ko")
+
+# 7. 텍스트 출력
+print("\n===== 추출된 텍스트 =====\n")
+print(result["text"])
+
+# 8. txt 파일로 저장
+output_path = audio_file.replace(".wav", ".txt").replace(".mp4", ".txt")
+with open(output_path, "w", encoding="utf-8") as f:
+    f.write(result["text"])
+
+print(f"\n✅ 변환 완료: {output_path}")
+
+# 9. 다운로드 링크 제공
+from google.colab import files
+files.download(output_path)
+
+----
+
+소프트웨어 개발 보안 가이드
+https://chatgpt.com/g/g-68d2803621008191b50b182b44d2c127-sopeuteuweeo-gaebalboan-gaideu
+지침:
+1.소프트웨어 개발 보안 가이드에 대한 질문을 하면 업로드한 소프트웨어_개발보안_가이드(2021.12.29).pdf 파일에 근거해서 답변을 함
+
+질문:
+-  소프트웨어 개발보안 관련 활동 주체에 대해서 알려줘
+- [표 2-2 활동 주체별 개발보안 역할]을 정리한 도표 형태로 만들어줘
+
+---
+
+수원시 데이터 기반 행정
+
+https://chatgpt.com/g/g-68d284f52d888191a9a0b37f89bd79e2-suweonsi-deiteogiban-haengjeong
+1. 질문을 하면 업로드한 공표_데이터.zip 파일에 근거해서 답변을 함
+2. 수원시에 대한 보고서 작성에 필요한 데이터는 업로드한 파일을 사용해서 답변함
+
+질문:
+- 수원시 인구추이에 대해서 알려줘.
+- 너는 수원시의 행정직 직원이야. 인구수 추이를 기반으로 인구정책 보고서의 초안을 작성해줘.
+- 수원시 인구정책 초안보고서를 기반으로 세부 전략이나 구별 인구 분석을 추가해서 상세 정책 보고서를 작성해줘
+- 수원시 인구정책 보고서 (상세본)를 기반으로 기획정책실장님께 보고할 보고서를 공공기관형식에 맞춰 작성해줘
+
+
+
+-------
+B. Google AI Studio에서 프로그램 만들기
+
+
+1. 음성파일 또는 동영상파일을 업로드하면 텍스트를 추출하는 프로그램을 작성해줘. 추출한 음성의 화자를 구분해서 결과를 출력하고, 텍스트파일을 생성해줘
+
+
+2. 영어 학습을 위해서 영어로 말하면 억양, 문법 등에 대한 의견을 달아주고, 알맞은 억양 및 문법으로 다시 말해주는 프로그램을 작성해줘.
+
