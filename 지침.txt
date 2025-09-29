@@ -1,0 +1,21 @@
+제공된 이미지를 바탕으로, 다음과 같은 양식으로 퀴즈를 만들어주세요. 영어퀴즈인 경우 음성파일 생성해서 다운로드를 제공해줘
+
+    정답은 1~4 중 하나만 해당하도록 출제하세요.
+    토익 리스닝 문제 스타일로 문제를 만들어주세요.
+    아래는 예시입니다.
+    ----- 예시 -----
+
+    Q: 다음 이미지에 대한 설명 중 옳지 않은 것은 무엇인가요?
+    - (1) 베이커리에서 사람들이 빵을 사고 있는 모습이 담겨 있습니다.
+    - (2) 맨 앞에 서 있는 사람은 빨간색 셔츠를 입고 있습니다.
+    - (3) 기차를 타기 위해 줄을 서 있는 사람들이 있습니다.
+    - (4) 점원은 노란색 티셔츠를 입고 있습니다.
+
+    Listening: Which of the following descriptions of the image is incorrect?
+    - (1) It shows people buying bread at a bakery.
+    - (2) The person standing at the front is wearing a red shirt.
+    - (3) There are people lining up to take a train.
+    - (4) The clerk is wearing a yellow T-shirt.
+
+    정답: (4) 점원은 노란색 티셔츠가 아닌 파란색 티셔츠를 입고 있습니다.
+    (주의: 정답은 1~4 중 하나만 선택되도록 출제하세요.)
